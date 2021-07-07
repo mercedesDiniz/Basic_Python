@@ -1,0 +1,1 @@
+# A confederação nacional de natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com ela: Até 9 anos é MIRIN, até 14 anos é INFANTIL, até 19 anos é JUNIOR, até 20 anos é SÊNIOR e acima é MASTER.

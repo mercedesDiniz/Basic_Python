@@ -1,7 +1,7 @@
 # Curso em Video - Curso de Python 3 - aula10
 # Condições - Parte 1
 
-# if objeto.nomeDoMetodo():
+# if condiçaoQualquer:
 #   bloco de instruções True  
 # else:  
 #   bloco de instruções False

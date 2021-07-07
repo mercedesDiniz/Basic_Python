@@ -1,0 +1,1 @@
+# Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com ela: - Media abaixo de 5 é REPROVADO; entre 5 e 6,9 é RECUPERAÇÃO, e 7 ou mais é APROVADO.
