@@ -8,6 +8,7 @@ prestacao = imovel/(12.0*anos)
 
 if prestacao > salario*(30/100):
     print('\033[31mEmpréstimo NEGADO!\033[m')
+    print('Prestação seria de R$ {:.2f} x {} parcelas.'.format(prestacao, 12*anos))
 else:
     print('\033[32mEmpréstimo APROVADO!\033[m')
     print('Prestação de R$ {:.2f} x {} parcelas.'.format(prestacao, 12*anos))

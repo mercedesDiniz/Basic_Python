@@ -6,10 +6,10 @@ n1 = float(input('Insira a Primeira Nota: '))
 n2 = float(input('Insira a Segunda Nota: '))
 
 media = (n1+n2)/2
-
+print('Media : {:.1f}\nSituação:'.format(media))
 if media >= 7 :
     print('\033[32mAPROVADO!\033[m')
-elif media >=5 and media <=6.9 :
+elif 6.9 >= media >=5 :
     print('\033[33mRECUPERAÇÃO!\033[m')
 elif media < 5 :
     print('\033[31mREPROVADO!\033[m')

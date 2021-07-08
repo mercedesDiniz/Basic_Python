@@ -8,13 +8,13 @@ r3 = float(input('Insira o comprimento da Reta03: '))
 print('\033[34m-=\033[m'*30)
 
 if r1 < r2+r3 and r2 < r1+r3 and r3 <r1+r2 :
-    print('\033[32mEssas Retas podem Forma um Triangulo!\033[m')
-    if r1 == r2 and r2 == r3 :      
+    print('\033[32mEssas Retas podem Forma um Triangulo! \033[m', end='')
+    if r1 == r2 == r3 :      
         print('\033[33mEQUILÁTERO\033[m')
-    elif r1 == r2 or r1 == r3 or r2 == r3 :
-        print('\033[33mISÓCELES\033[m')
-    else:
+    elif r1 != r2 != r3 != r1 :
         print('\033[33mESCALENO\033[m')
+    else:
+        print('\033[33mISÓCELES\033[m')
 else:
     print('\033[31mEssas Retas NÃO podem Forma um Triangulo!\033[m')        
    
