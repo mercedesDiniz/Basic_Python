@@ -1,0 +1,1 @@
+# Crie um programa que leia o nome eo preço de vários produtos. O programa deverá perguntar se o usúario vai continuiar. NO final, mostre: a) Qual é o total gasto na compra. b) Quantos produtos custão mais de R$1000. c) Qual é o nome do produto mais barato. 
