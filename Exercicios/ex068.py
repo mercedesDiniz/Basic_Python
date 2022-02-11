@@ -5,9 +5,11 @@ print('\033[36m-=-'*5, 'VOMOS JOGAR PAR ou IMPAR', '-=-'*5, '\033[m')
 num_vitorias = 0
 
 while True:
-    num_computador = randint(0,100)
+    num_computador = randint(0,10)
     num_jogador = int(input('Jogue um valor: '))
-    op_jogador = str(input('Paar ou Impar? [P/I] ')).strip().upper()[0]
+    op_jogador = str(input('Par ou Impar? [P/I] ')).strip().upper()[0]
+    while op_jogador not in 'PpIi':
+        op_jogador = str(input('Par ou Impar? [P/I] ')).strip().upper()[0]
 
     soma = num_computador + num_jogador
     if soma%2 == 0:
