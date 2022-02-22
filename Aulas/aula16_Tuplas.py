@@ -39,7 +39,7 @@ tupla02 = (2, 5, 4)
 tupla03 = (5,8,1,2)
 tuplaConcatenacao = tupla02 + tupla03 # Contatenação de tuplas
 print(tuplaConcatenacao)
-print(tuplaConcatenacao.count(5)) # contar quantidade do termo especificado estão presentes 
+print(tuplaConcatenacao.count(5)) # retorna a quantidade do termo especificado 
 print(tuplaConcatenacao.index(8)) # retorna a posição da primeiro ocorrencia do termo especificados
 
 # Ex.05: Podemo ter dados de tipos diferentes dentro de uma mesma tuplas
