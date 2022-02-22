@@ -1,7 +1,7 @@
 # Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o numero sorteado. Deverá se escrito na tela se acertou ou não.
 
-from random import randint
-from time import sleep
+from random import randint # p/ randomizar um inteiro
+from time import sleep # p/ esperar/dormir
 
 nSoteado = randint(0, 5)
 print('\033[33m-=-\033[m'*25)

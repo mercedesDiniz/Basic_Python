@@ -6,7 +6,7 @@ numero = int(input('Insira um número inteiro para a converção: '))
 op = int(input('Selecione a Base de Conversão:\n[ 1 ] - \033[33mBinário\033[m\n[ 2 ] - \033[33mOctal\033[m\n[ 3 ] - \033[33mHexadecimal\033[m\n-> '))
 
 if op == 1: # Converter p/ binário
-    print('{} em Decimal = \033[33m{}\033[m em Binario'.format(numero, bin(numero)[2:]))    
+    print('{} em Decimal = \033[33m{}\033[m em Binario'.format(numero, bin(numero)[2:]))    # [2:] -> fatiamento p/ omitir os dois primeiro digitos 
 elif op == 2: # Converter p/ octal
     print('{} em Decimal = \033[33m{}\033[m em Octal'.format(numero, oct(numero)[2:]))
 elif op == 3: # Converter p/ hexadecimal

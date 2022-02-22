@@ -2,7 +2,7 @@
 
 from math import cos, sin, tan, radians
 ang = float(input('Insira um angulo: '))
-cosseno = cos(radians(ang))
+cosseno = cos(radians(ang))          # radians() converte de graus p/ radianos
 seno = sin(radians(ang))
 tangente = tan(radians(ang))
 print('Sen({}) = {:.2f}'.format(ang, seno))

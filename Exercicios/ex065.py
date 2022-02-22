@@ -7,8 +7,8 @@ while continuar in 'Ss' :
     n = int(input('Insira um Número: '))
     soma += n
     n_elementos += 1
-    if n_elementos == 1:
-        maior = menor = n
+    if n_elementos == 1: # primeiro termo inserido
+        maior = menor = n # inicializando os valores
     else:    
         if n > maior:
             maior = n

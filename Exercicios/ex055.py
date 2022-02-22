@@ -5,7 +5,7 @@ peso_menor = 0.0
 
 for i in range(1, 6):
     peso = float(input('Qual é o peso da {} pessoa? '.format(i)))
-    if i == 1:
+    if i == 1: # primeira pessoa
         peso_menor = peso
         peso_maior = peso
     else:    

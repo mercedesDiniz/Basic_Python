@@ -6,6 +6,6 @@ soma = 0
 while True:   # Loop Infinito
     n = int(input('Insira um Número: [999 - Sair] ')) 
     if n == 999:
-        break   # Interrupção
+        break   # Interrupção (quebra o loop)
     soma += n
-print(f'A soma é {soma}') #print('Soma = {}'.format(soma))    
+print(f'A soma é {soma}') #print('Soma = {}'.format(soma))  # ATUALIZAÇÃO DO PYTHON 3.6  ou superior  

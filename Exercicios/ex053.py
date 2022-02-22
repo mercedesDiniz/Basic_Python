@@ -1,4 +1,4 @@
-# Crei um promaga que leia uma frase qualquer e diga se ela é um PALÌNDROMO, desconsiderando os espaços e acentos.
+# Crei um programa que leia uma frase qualquer e diga se ela é um PALÌNDROMO, desconsiderando os espaços e acentos.
 # Ex. de palíndromos: APOS A SOPA, A SACADA DA CASA, A TORRE DA DERROTA, O LOBO AMA O BOLO, ANOTARAM A DATA DA MARATONA.
 
 frase = str(input('Insira a Frase: ')).strip().upper() # tiramdo os espaços do inicio e fim, e colocando tuno p/ maiusculo

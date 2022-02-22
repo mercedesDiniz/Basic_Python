@@ -1,5 +1,5 @@
-# Faça um programa que leia um número inteiro e diga se ele é ou não um número primo. (erro ...)
-
+# Faça um programa que leia um número inteiro e diga se ele é ou não um número primo. 
+# Um nuḿero primo só é divisivel por 1 e por ele mesmo (dois divisores).
 
 n = int(input('Insira um número: '))
 cont = 0 # conta o numero total de divisores
