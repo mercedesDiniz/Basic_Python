@@ -2,7 +2,19 @@
 
 times = ('Corinthians', 'Palmeiras', 'Santos', 'Grêmio', 'Cruzeiro', 'Flamengo','Vasco','Chapecoense','Atlético','Botafogo', 'Atletico-PR', 'Bahia', 'São Paulo', 'Fluminense', 'Sport Recife', 'ES Vitória', 'Coritiba', 'Avaí', 'Ponte Preta')
 
-print(f'a) Os 5 primeiros colocados são: {times[:5]}\n')
-print(f'b) Os últimos 4 colocados são : {times[-4:]}\n')
-print(f'c) Os times em ordem alfabética: {sorted(times)}\n')
+print('-=-'*25, '\n')
+print(f'Os 20 primeiros times do Brasileirão:\n\033[33m{times}\033[m')
+# Mostra os times um em baixo do outro de ocordo com a ordem da tupla:
+'''
+for t in times:
+    print(t) '''
+
+print('~~'*30)
+print(f'a) Os 5 primeiros colocados são: \033[32m{times[:5]}\033[m')
+print('~~'*30)
+print(f'b) Os últimos 4 colocados são : \033[31m{times[-4:]}\033[m')
+print('~~'*30)
+print(f'c) Os times em ordem alfabética: {sorted(times)}')
+print('~~'*30)
 print(f'd) A Chapecoense estão na posição: {times.index("Chapecoense")+1}')
+print('~~'*30)

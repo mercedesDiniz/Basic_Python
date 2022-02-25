@@ -9,6 +9,9 @@ Obs.: As Tuplas são IMUTÁVEIS.'''
 tupla01 = ('Termo01', 'Termo02', 'Termo03', 'Termo04') # parênteses são opcionais
 print(f'Tupla: {tupla01}')
 
+# Converter outras sequências em Tupla
+# tupla = tuple(lista) -> transformar listas em tuplas
+
 # Selecionando um Termo: nomeTupla[nTermo]:
 print(f'tupla01[0] = {tupla01[0]}') 
 print(f'tupla01[-1] = {tupla01[-1]}')
