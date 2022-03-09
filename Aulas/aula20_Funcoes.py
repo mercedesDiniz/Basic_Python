@@ -5,7 +5,7 @@
 '''Funções são blocos de código (e uma rotinas personalizada) identificados por um nome, que podem receber parâmetros pré-determinados.
 # Caracteristicas:
     - Podem retornar ou não objetos;
-    - Aceitam DocStrings (são strings que estão associadas a uma estrutura e servem de documentação);
+    - Aceitam DocStrings;
     - Aceitam parâmetros opcionais (com defaults);
     - Aceitam que os parâmetros sejam passados com nome;
     - Tem namespace próprio (escopo local).  '''
@@ -22,7 +22,7 @@ return valor '''
 from turtle import pos
 
 
-def mostraLinha(tipo = '-', x = 30): # definição da função
+def mostraLinha(tipo = '-', x = 30): # definição da função com parâmetros opcionais
     print(str(tipo)*x) # bloco de instruções
 
 def tituloFormatado(msg): # definição da função
